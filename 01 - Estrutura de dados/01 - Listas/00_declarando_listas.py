@@ -1,5 +1,5 @@
 frutas = ["laranja", "maca", "uva"]
-print(frutas)
+print(frutas[1])  # Acessando o segundo elemento da lista
 
 frutas = []
 print(frutas)
