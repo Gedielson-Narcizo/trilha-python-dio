@@ -8,6 +8,7 @@ pares = [numero for numero in numeros if numero % 2 == 0]
  '''
 # Isso significa que estamos filtrando os números pares da lista.
 # A variável 'pares' agora contém apenas os números pares da lista original.
+
 print(pares)
 
 # Modificar valores

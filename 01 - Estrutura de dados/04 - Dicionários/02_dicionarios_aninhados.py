@@ -7,3 +7,12 @@ contatos = {
 
 telefone = contatos["giovanna@gmail.com"]["telefone"]  # "3443-2121"
 print(telefone)
+
+print(list(contatos.keys()))  # esse é o jeito mais comum de acessar as chaves 
+# de um dicionário e o retorno é:
+# ["guilherme@gmail.com", "giovanna@gmail.com", "chappie@gmail.com", "melaine@gmail.com"]
+
+for email, info in contatos.items():
+    print(f"{email}: {info['nome']} - {info['telefone']}") # esse é o jeito mais comum
+# de iterar sobre dicionários aninhados e retorna o nome e telefone de cada contato
+
